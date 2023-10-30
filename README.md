@@ -28,6 +28,7 @@ This is an app that shows the current weather and the forecast based on user's l
 - S.O.L.I.D principles
 - BLoC and Cubit for state management
 - Used Mockito to make the test coverage over 90%
+![Test Coverage](https://imageupload.io/ib/xT6cd8Q1tffGfk0_1698662823.png)
 
 ## Development environment (flutter doctor)
 - Flutter (Channel stable, 3.13.1, on macOS 13.3.1 22E772610a darwin-arm64, locale en-BR)
@@ -40,9 +41,8 @@ Follow these instructions to get the app up and running on your local machine.
 ### Prerequisites
 - [Flutter](https://flutter.dev/docs/get-started/install) must be installed on your machine.
 
-### Installation
+### Installation and testing
 1. Clone the repository
-
     ```bash
     git clone https://github.com/leandromichelforte/skywatch.git
     ```
@@ -51,9 +51,13 @@ Follow these instructions to get the app up and running on your local machine.
     cd skywatch/
     flutter pub get
     ```
-2. Run it
+3. Run it
     ```
     flutter run
+    ```
+4. Run the tests
+    ```
+    flutter test --coverage
     ```
 
 ## Dependencies
